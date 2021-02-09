@@ -9,7 +9,9 @@ Here we have the code to test the accuracies and recall for four intent classifi
 
 * BERT.ipynb- has Bert Algorithm Implemented for Intent-classification of queries across small dataset. It can be used for all the datasets and parameters are to be tuned for each dataset. 
 
-* We used 'bert-large-uncased' pre-trained model for this task. you can download the BERT model using this link https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip
+* We used 'bert-large-uncased' pre-trained model for this task. You can download the BERT model using this link https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip
+
+* We used 'glove.6B.200d' text file for global vector representation of words. You can download the file using this link https://www.kaggle.com/incorpes/glove6b200d
  
 * MLP.py - has Multi-Layer Perceptron Algorithm Implemented for Intent-classification of queries across small dataset which gives in-scope accuracies and out-of-scope recall across the given dataset. 
 
